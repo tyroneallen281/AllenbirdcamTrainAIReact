@@ -1,0 +1,44 @@
+.TermsAndConditionsModalHeader,
+.TermsAndConditionsModalBody,
+.TermsAndConditionsModalFooter {
+    padding: 1rem;
+    background: var(--color-modal-background);
+    color: var(--color-modal-text)
+}
+
+.TermsAndConditionsModalHeader {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.TermsAndConditionsModalBody {
+    text-align: center;
+}
+
+.TermsAndConditionsModalFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+}
+
+.Cancel {
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 35%;
+    background: var(--color-cancel-background);
+    color: var(--color-cancel-text);
+    border: 1px solid var(--color-cancel-border);
+}
+
+.Cancel:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+:root {
+  --color-primary: #E60000;
+  --color-background: #F1F1F1;
+  --color-page: #FFFFFF;
+  --color-page-banner: #F8F9FA;
+  --color-border-shadow: rgba(73, 80, 87, .3);
+  --color-svg-symbols: var(--color-primary);
+  --color-cancel-background: #FFFFFF;
+  --color-cancel-border: #000000;
+  --color-cancel-text: #000000;
+  --color-cancel-hover-background: #FFFFFF;
+  --color-cancel-hover-border: #000000;
+  --color-cancel-hover-text: #000000;
+  --color-submit-background: var(--color-primary);
+  --color-submit-border: var(--color-primary);
+  --color-submit-text: #FFFFFF;
+  --color-submit-hover-background: var(--color-primary);
+  --color-submit-hover-border: var(--color-primary);
+  --color-submit-hover-text: #FFFFFF;
+  --color-submit-disabled-background: #ADB5BD;
+  --color-submit-disabled-border: #ADB5BD;
+  --color-submit-disabled-text: #FFFFFF;
+  --color-text: #000000;
+  --color-text-label: #6c757d;
+  --color-input-text: #000000;
+  --color-input-border: #F1F1F1;
+  --color-input-background: #FFFFFF;
+  --color-input-placeholder: rgba(0, 0, 0, 0);
+  --color-input-error: var(--color-primary);
+  --color-checkbox-border: #CCCCCC;
+  --color-checkbox-background: #CCCCCC;
+  --color-modal-background: var(--color-page);
+  --color-modal-text: var(--color-text-label);
+}
+
+html,
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: var(--color-page);
+  color: var(--color-text);
+}
+
+.root,
+.app {
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  display: block;
+}
+
+@media(min-width: 768px) {
+
+  html,
+  body {
+    background-color: var(--color-background);
+  }
+
+}

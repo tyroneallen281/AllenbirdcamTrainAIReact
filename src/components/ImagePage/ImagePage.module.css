@@ -1,0 +1,60 @@
+.DisplayCenter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ImagePageDiv {
+    position: relative;
+    background-color: var(--color-page);
+    overflow: visible;
+}
+
+.ImagePageImg {
+   width: 100%;
+}
+
+
+.NextButton:hover {
+    cursor: pointer;
+}
+
+
+
+@media(min-width: 768px) {
+    .ImagePageDiv {
+        position: relative;
+        width: 100%;
+        box-shadow: 0rem 0.625rem 0.75rem 0.25rem var(--color-border-shadow);
+        overflow: hidden;
+    }
+    .NextButton {
+        position: absolute;
+        right:5px;
+        bottom: 5px;
+        padding: 0.4rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        border-radius: 0.4rem;
+        font-size: 0.8rem;
+    }
+ 
+}
+
+@media(max-width: 768px) {
+    .NextButton {
+        position: absolute;
+        right:5px;
+        bottom: -30px;  
+        padding: 0.4rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        border-radius: 0.4rem;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,14 @@
+.NextButton {
+    position: absolute;
+    right:5px;
+    bottom: 5px;
+    padding: 0.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.NextButton:hover {
+    cursor: pointer;
+}

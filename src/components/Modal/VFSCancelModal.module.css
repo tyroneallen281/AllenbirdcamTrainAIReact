@@ -1,0 +1,65 @@
+.CancelModalHeader,
+.CancelModalBody,
+.CancelModalFooter {
+    padding: 1rem;
+    background: var(--color-modal-background);
+    color: var(--color-modal-text)
+}
+
+.CancelModalHeader {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.CancelModalBody {
+    text-align: center;
+}
+
+.CancelModalFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+}
+
+.Submit,
+.Cancel {
+    padding: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    width: 35%;
+}
+
+.Submit {
+    background: var(--color-submit-background);
+    color: var(--color-submit-text);
+    border: 1px solid var(--color-submit-border);
+}
+
+.Cancel {
+    background: var(--color-cancel-background);
+    color: var(--color-cancel-text);
+    border: 1px solid var(--color-cancel-border);
+}
+
+.Submit:hover,
+.Cancel:hover {
+    cursor: pointer;
+}
+
+@media(min-width: 768px) {
+
+    .Submit,
+    .Cancel {
+        padding: 1.25rem;
+        padding-top: 0.9375rem;
+        padding-bottom: 0.9375rem;
+        border-radius: 0.3rem;
+    }
+}

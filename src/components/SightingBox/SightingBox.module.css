@@ -1,0 +1,85 @@
+
+.SightingDiv{
+    position: absolute;
+    border: 2px solid #ff1493;
+    border-radius: 5px;
+  
+}
+
+
+
+.VoteButtonResultDiv{
+    padding:5px;
+    background-color: rgba(200, 200, 200, 0.4);
+    position: absolute;
+    margin: 0 auto;
+    left: 5px;
+    bottom: 5px;
+   
+}
+
+
+.VoteButtonLabel{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+.VoteButton{
+    float: left;
+    font-size: 0.8em;
+    border: 1px solid #ccc;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media(max-width: 768px) {
+    .VoteButtonLabel{
+        font-size: 0.6em;
+       margin-top: 0;
+    }
+    
+   
+
+    .VoteButtonDiv{
+        min-width: 60;
+        padding:4px;
+        background-color: rgba(200, 200, 200, 0.4);
+        position: absolute;
+        margin: 0 auto;
+        left: 0px;
+        bottom: -50px;
+        display: block;
+        min-width: 70px;
+    }
+}
+
+
+
+@media(min-width: 768px) {
+    .VoteButtonLabel{
+        font-size: 0.7em;
+    }
+    
+   
+
+    .SightingDiv:hover  .VoteButtonDiv {
+        display: block;
+    }
+    
+    .VoteButtonDiv{
+        min-width: 60;
+        padding:4px;
+        background-color: rgba(200, 200, 200, 0.4);
+        position: absolute;
+        margin: 0 auto;
+        left: 3px;
+        bottom: 5px;
+        display: none;
+        min-width: 70px;
+    }
+}
